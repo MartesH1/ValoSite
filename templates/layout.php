@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/tempaltes/js/script.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="templates/css/style.css">
+</head>
+<body>
+    <header>
+        <?= $header; ?>
+    </header>
+    <div class="main-content">
+        <?= $content; ?>
+    </div> 
+</body>
+</html>
