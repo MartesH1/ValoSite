@@ -13,7 +13,7 @@
 <?php
     $result = null;
     if(isset($_COOKIE['user'])){
-     $mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+     $mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
      $user = $_COOKIE['user'];
      $result =$mysql -> query("SELECT `id` FROM `users` 
      WHERE `username` = '$user'")->fetch_assoc();
