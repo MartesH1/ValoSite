@@ -20,7 +20,7 @@
                         $user = $_GET["user"];
                         $db_host = 'localhost';
                         $db_username = 'root';
-                        $db_password = '';
+                        $db_password = '1111';
                         $db_name = 'valo_bd';
                         $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
                         $sql = "SELECT * FROM users WHERE username = ?";
@@ -33,7 +33,7 @@
                     } else {
                         $db_host = 'localhost';
                         $db_username = 'root';
-                        $db_password = '';
+                        $db_password = '1111';
                         $db_name = 'valo_bd';
                         $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
                         $sql = "SELECT * FROM users LIMIT 10"; 
