@@ -8,7 +8,7 @@
         setcookie('error', "Имя не может быть меньше 5 символов", time() + 3, "/");
         header('Location: ../../pageView.php?id=registration.php');
     }
-    $mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+    $mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
     $result = $mysql->query("SELECT * FROM `users` WHERE `username` = '$username'")->fetch_assoc();
     if($result != NULL){
         setcookie('error', "Пользователь с таким именем уже существует", time() + 3, "/");
