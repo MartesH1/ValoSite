@@ -10,7 +10,7 @@
 </html>
 
 <?php
-    $mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+    $mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
     $count = $mysql -> query("SELECT COUNT(*)
     FROM `favorite`") -> fetch_assoc();
     $mysql -> close();
