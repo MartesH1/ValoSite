@@ -1,5 +1,5 @@
 <?php
-    $mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+    $mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
     $agent_id = $character['agent_id'];
     $user_id = $character['user_id'];
     $result = $mysql -> query("SELECT * FROM `agents` 
