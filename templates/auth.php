@@ -8,7 +8,7 @@
             <label>Введите Ваш пароль</label>
             <input type="password" name="auth_pass" placeholder="Введите пароль" required >
             <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
-            <a href="http://localhost/diplom/valo/pageView.php?id=registration.php" class="regis">Зарегистрироваться</a>
+            <a href="http://18.142.252.198/pageView.php?id=registration.php" class="regis">Зарегистрироваться</a>
           </form>
           <?php
               if(isset($_COOKIE['error'])):
