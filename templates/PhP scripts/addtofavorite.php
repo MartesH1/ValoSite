@@ -1,5 +1,5 @@
 <?php
-$mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+$mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
 $character_id = $_GET["character_id"];
 $user_id = $_GET["user_id"];
 $status = $_GET["status"];
