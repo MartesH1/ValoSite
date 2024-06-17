@@ -1,5 +1,5 @@
 <?php
-    $mysql = new mysqli('localhost', 'root', '', 'valo_bd');
+    $mysql = new mysqli('localhost', 'root', '1111', 'valo_bd');
 
     $username = filter_var(trim($_POST['auth_username']));
     $pass = filter_var(trim($_POST['auth_pass']));
